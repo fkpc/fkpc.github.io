@@ -1,8 +1,34 @@
-body { margin: 0; font-family: serif; background-color: black; color: white; }
-a { color: cyan; }
-a:hover { color: yellow; }
-#main { margin: 2vw; white-space: pre-wrap; }
-img { width :100% }
-table { border: ; border-collapse: collapse; border-color: white; }
-td, th { border: solid 1px black; padding: 0px 2px; }
-#footer { border-top: 1px solid gray; padding: 2vw; }
+body {
+  margin: 0;
+  font-family: serif;
+  background-color: dimgray;
+  color: whitesmoke;
+}
+a {
+  color: cyan;
+}
+a:hover {
+  color: yellow;
+}
+#main {
+  margin: 2vw;
+  white-space: pre-wrap;
+}
+img {
+  width: 100%;
+}
+table {
+  border: ;
+  border-collapse: collapse;
+  border-color: white;
+}
+td,
+th {
+  box-shadow: inset 2px 2px 4px #4f4f4f, inset -2px -2px 4px #838383;
+  border: solid 2px dimgray;
+  padding: 2px;
+}
+#footer {
+  border-top: 1px solid gray;
+  padding: 2vw;
+}
